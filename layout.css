@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#content {
+  display: flex;
+}
+
+#container {
+  width: 300px;
+}
+
+ol {
+  padding: 5px;
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+}
+
+#container li:nth-child(odd) {
+  background: #e0eac4;
+  border-bottom-right-radius: 10px;
+}
+
+#container2 {
+  width: 700px;
+}
+
+#container2 li:nth-child(even) {
+  background: #e0eac4;
+  border-bottom-right-radius: 10px;
+}
